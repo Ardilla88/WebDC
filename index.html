@@ -9,7 +9,7 @@
         <title>Test DC</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1 shrink-to-fit=no">
-        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/bootstrap.css">
         <link rel="stylesheet" type="text/css" href="css/main.css">
     </head>
     <body>
@@ -32,7 +32,7 @@
                     <a class="nav-link" href="#">Link</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-target="#m">
                         Dropdown
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -46,10 +46,22 @@
                     <a class="nav-link disabled" href="#">Disabled</a>
                 </li>
                 </ul>
+
+
+
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
                 </form>
+                <div class="dropdown">
+                        <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                          Idioma
+                        </button>
+                        <div class="dropdown-menu my-2 my-sm-0">
+                          <a class="dropdown-item" href="#es"><span class="flag-icon flag-icon-es"></span>Español</a>
+                          <a class="dropdown-item" href="#en"> <span class="flag-icon flag-icon-ru"> </span>Inglés</a>
+                        </div>
+                      </div> 
             </div>
       </nav>
             <header class="header ">
@@ -107,8 +119,15 @@
                     </div>
 
                 </div>
+
             </div>
 
+            <div class="container">
+
+                    <div class="progress">
+                      <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:70%"></div>
+                    </div>
+                  </div>
 <!-- Footer -->
             <div class='main'></div>
                 <footer class="footer">
@@ -143,11 +162,12 @@
                     <div class="footer-copyright text-center py-3">© 2018 Copyright:
                         <a href="https://www.google.es">Meow</a>
                     </div>
-                </footer>
+                
 
-        <script src="" async defer></script>
         <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src='js/main.js'></script>
+</footer>
     </body>
 </html>
