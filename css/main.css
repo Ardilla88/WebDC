@@ -96,3 +96,15 @@ body{
     line-height:2;
     color:#888;
    }
+
+.main{
+    flex: 1;
+}
+
+.footer{
+    background: #f97300;
+}
+
+.footer-copyright{
+    background: #f9740083;
+}
