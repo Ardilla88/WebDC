@@ -113,3 +113,36 @@ body{
 .footer-copyright{
     background: #f9740083;
 }
+
+.carousel-inner > .item > img{
+
+    margin:auto;
+    display:block
+    }
+
+.carousel-inner p,h3{
+
+        background-color: #747b832c;
+        color: #007bff;
+    }
+
+    .caoursel-caption p {
+
+        background-color: #343a40;
+        color: #007bff;       
+
+    }
+
+.carousel-indicators li {
+    color: #F97300;
+    background-color: #343a40;
+}
+
+.li.active {
+    color: #343a40;
+    border-color: rgb(0, 0, 0);
+}
+
+.carousel-indicators .active{
+    background-color: #f00;
+}
